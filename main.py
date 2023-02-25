@@ -50,12 +50,26 @@ expDlyEnt = Entry(root)
 expMntEnt = Entry(root)
 expYrEnt = Entry(root)
 
-esWEnt = exp_canvas.create_window(65,70,window=expenseEnt)
-esAEnt = exp_canvas.create_window(122,70,window=expAmtEnt)
-esWkEnt = exp_canvas.create_window(175,70,window=expWkEnt)
-esDEnt = exp_canvas.create_window(220,70,window=expDlyEnt)
-esMEnt = exp_canvas.create_window(270,70,window=expMntEnt)
-esYEnt = exp_canvas.create_window(320,70,window=expYrEnt)
+esWEnt = exp_canvas.create_window(105,70,window=expenseEnt)
+esAEnt = exp_canvas.create_window(162,70,window=expAmtEnt)
+esWkEnt = exp_canvas.create_window(215,70,window=expWkEnt)
+esDEnt = exp_canvas.create_window(260,70,window=expDlyEnt)
+esMEnt = exp_canvas.create_window(310,70,window=expMntEnt)
+esYEnt = exp_canvas.create_window(360,70,window=expYrEnt)
+
+incomEnt = Entry(root)
+incAmtEnt = Entry(root)
+incWkEnt = Entry(root)
+incDlyEnt = Entry(root)
+incMntEnt = Entry(root)
+incYrEnt = Entry(root)
+
+incWEnt = inc_canvas.create_window(105,70,window=incomEnt)
+incAEnt = inc_canvas.create_window(162,70,window=incAmtEnt)
+incWkEnt = inc_canvas.create_window(215,70,window=incWkEnt)
+incDEnt = inc_canvas.create_window(260,70,window=incDlyEnt)
+incMEnt = inc_canvas.create_window(310,70,window=incMntEnt)
+incYEnt = inc_canvas.create_window(360,70,window=incYrEnt)
 
 
 #Buttons
